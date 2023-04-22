@@ -1,6 +1,5 @@
 #!/bin/bash -e 
 
-
 # ------------ apt-getリポジトリの追加
 apt-get install curl gnupg lsb-release -y
 curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
@@ -25,5 +24,5 @@ apt-get install gazebo -y
 apt-get install ros-humble-gazebo-* -y
 
 # ------------ 環境設定を反映
-echo "source ~/ros2_ws/install/setup.bash"
+echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
 source ~/.bashrc
