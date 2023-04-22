@@ -15,7 +15,7 @@ winget install marha.VcXsrv
 - 参考
 https://zenn.dev/dozo/articles/3ef1565b2b069e
 
-## VSCodeで改行の自動変更を止める場合
-以下参照
+## VSCodeで改行の設定を変更する必要がある
+Windows上でgit cloneするとCRLFとなってしまうことがあるようだ
 
-https://penpen-dev.com/blog/warning-lf-willbe/
+![image](https://user-images.githubusercontent.com/83892604/233789822-5dcc164c-874d-42cf-b69c-c60e3cd5972d.png)
