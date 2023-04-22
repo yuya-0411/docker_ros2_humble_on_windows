@@ -24,4 +24,5 @@ apt-get install gazebo -y
 apt-get install ros-humble-gazebo-* -y
 
 # ------------ 環境設定を反映
+echo "source ~/ros2_ws/install/setup.bash"
 source ~/.bashrc
