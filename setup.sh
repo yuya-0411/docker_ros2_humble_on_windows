@@ -1,5 +1,6 @@
 #!/bin/bash -e 
 
+
 # ------------ apt-getリポジトリの追加
 apt-get install curl gnupg lsb-release -y
 curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
