@@ -14,3 +14,8 @@ winget install marha.VcXsrv
 
 - 参考
 https://zenn.dev/dozo/articles/3ef1565b2b069e
+
+## VSCodeで改行の自動変更を止める場合
+以下参照
+
+https://penpen-dev.com/blog/warning-lf-willbe/
